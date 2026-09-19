@@ -473,8 +473,6 @@ Demo execution must always be clearly identified as:
 | Gemini | Natural-language scenario understanding and explanations |
 | Cognee | Business memory |
 | ElevenLabs | Voice interaction |
-| n8n | Optional workflow execution |
-| Demo Executor | Safe hackathon/demo execution |
 
 ---
 
@@ -482,17 +480,17 @@ Demo execution must always be clearly identified as:
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│                         SIMORA UI                             │
+│                         SIMORA UI                            │
 │                 React + TypeScript + Vite                    │
 └──────────────────────────────┬───────────────────────────────┘
                                │
                                │ REST API
                                ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                       FastAPI Backend                         │
+│                       FastAPI Backend                        │
 ├──────────────────────────────────────────────────────────────┤
 │ Authentication │ Business │ Products │ Sales │ Analytics     │
-│ Simulations    │ Decisions │ Outcomes │ Memory │ Insights     │
+│ Simulations    │ Decisions │ Outcomes │ Memory │ Insights    │
 └──────────────────────────────┬───────────────────────────────┘
                                │
               ┌────────────────┼────────────────┐
